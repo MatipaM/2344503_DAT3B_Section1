@@ -19,10 +19,10 @@
        
     </header>
 <head>
-    <meta name="description" content="This is the fragile page of Matipa Marufu's June Exam.">
+    <meta name="description" content="This is the fragile page of Matipa Marufu's DAT June Exam.">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="CSS/general.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/Fragile.css">
 
     <script src="https://kit.fontawesome.com/e9f29bfa82.js" crossorigin="anonymous"></script>
     <meta charset="utf-8" />   
@@ -31,17 +31,32 @@
 
 </head>
 <body>
-    <section class="p-BitRotting">
-        <img src="Images/BitRottingImages/Frame1.png" alt="Animation of bit rotting" class="BitRottingImgs">
-        <img src="Images/BitRottingImages/Frame2.png" alt="Animation of bit rotting" class="BitRottingImgs">
-        <img src="Images/BitRottingImages/Frame3.png" alt="Animation of bit rotting" class="BitRottingImgs">
+    <article>
+    <section class="p-BitRotting" onclick="SwitchBit()">
+        <span class="P1">
+        <img src="Images/BitRottingImages/Frame2.png" alt="Animation of bit rotting" class="BitRottingImgs" id="Img1">
+        <img src="Images/BitRottingImages/Frame3.png" alt="Animation of bit rotting" class="BitRottingImgs hide" id="Img2">
+    </span>
+    <span class="P2">
+        Electronic File - Click the image :)
         <p id="p-BitRottingExplanation">
        
         </p>
+    </span>
     </section>
+
+    <section>
+        <form id="updateContainer">
+            <label>Software Update Required</label> <br/>
+             <a href="UpdateFile.html"> Update</a>   
+        </form>
+     
+    </section>
+
+</article>
+    <script src="JS/FragileAnimation.js"></script>
 </body>
 <footer>
-    <script src="JS/FragileAnimation.js"></script>
-    <script src="JS/typing.js"></script>
+
 </footer>
 </html>
