@@ -1,0 +1,26 @@
+.ServerImg{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.FireImg{
+    width: 100%;
+    margin-top: -110%;
+}
+
+.hide{
+    display: none;
+}
+
+a{
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+}
+
+html{
+    background-color: black;
+    color: white;
+}

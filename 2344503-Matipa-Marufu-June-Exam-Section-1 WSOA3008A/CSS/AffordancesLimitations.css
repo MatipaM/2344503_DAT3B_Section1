@@ -1,0 +1,32 @@
+h2{
+    margin-top: 5%;
+}
+
+.P1{
+    margin-right: 50%;
+    margin-top: 10%;
+}
+
+.P2{
+    margin-left: 50%;
+    margin-top: -12%;
+}
+
+li{
+    text-align: left;
+    list-style-type: circle;
+    margin-bottom: 2%;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.good{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
+

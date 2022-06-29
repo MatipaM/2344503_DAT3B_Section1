@@ -1,5 +1,5 @@
 .BitRottingImgs{
-    width: 40%;
+    width: 30%;
     margin-top: 5%;
     margin-left: 0%;
 }
@@ -18,8 +18,15 @@
     
 }
 
-.P2{
-    margin-right: 50%;
+.P2 #p-BitRottingExplanation{
+    margin-left: 50%;
+    margin-top: -40%;
+    padding-bottom: 30%;
+}
+
+h2{
+    text-align: center;
+    margin-top: 2%;
 }
 
 section{
@@ -34,40 +41,3 @@ section:nth-child(2){
     background-color: lightgray;
 }
 
-#updateContainer{
-    /* background-color: ; */
-    width: 80%;
-    /* background-color: rgba(127, 134, 123, 0.6); */
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding: 1%;
-    padding-bottom: -5%;
-  font-size: 125%;
-  border-radius: 2%;
-  margin-bottom: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-bottom: 3%;
-  
-  -moz-box-shadow: 0 0 10px grey;
-  -webkit-box-shadow: 0 0 10px grey;
-  box-shadow: 0 0 10px grey;
-
-  font-size: 400%;
-}
-
-label{
-    margin-bottom: 5%;
-}
-
-button{
-    font-size: 100%;
-    margin-top: 2%;
-    border-radius: 15%;
-}
-
-#UpdateImg{
-    width: 70%;
-    margin-left: 15%;
-}

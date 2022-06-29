@@ -1,0 +1,17 @@
+.UpdateGif{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin-top: 10%;
+
+}
+
+html{
+    background-color: rgba(9, 17, 24);
+}
+
+cite{
+    color: white;
+    background-color: rgba(9, 17, 24);
+}
