@@ -1,15 +1,17 @@
-.ComputerAging{
 
-}
 
 .cite footer{
     color: black;
 }
 
 .PowerBook .ComputerAging{
-    width: 40%;
+    width: 50%;
     margin-right: 50%;
     margin-left: 10%;
+}
+
+.ComputerAging{
+    width: 50%;
 }
 
 p{
@@ -18,7 +20,8 @@ p{
 }
 
 .P1{
-    margin-top: -30%;
+    margin-top: -40%;
+    margin-left: 50%;
 }
 
 .P2{
@@ -87,3 +90,15 @@ p :nth-child(2)
     grid-column: 2;
      grid-row: 1;
 } */
+
+@media (max-width: 512px){ 
+    .ComputerAging{
+        width: 50%;
+    }
+}
+
+@media (max-width: 1024px){ 
+    .ComputerAging{
+        width: 50%;
+    }
+}
